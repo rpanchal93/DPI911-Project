@@ -11,7 +11,7 @@ Supply chain compromise involves the process of manipulation and product deliver
 -   Shipment interdiction
 -   Manipulation of software update/distribution mechanisms
 -   Manipulation of development tools
--  Sales of modified/counterfeit products to legitimate distributors
+-   Sales of modified/counterfeit products to legitimate distributors
 -   Replacement of legitimate software with modified versions
 
 
@@ -23,10 +23,17 @@ Platform: Linux, Windows, macOS
 Data Sources: Web proxy, File monitoring
 
 # Execution 
+Only Pre - Compromised Supply Chain can be tested for example: CCBkdr
 
-cannot be done
+CCBkdr is a piece of malware that creates a backdoor, and it is part os Supply Chain Compromise because it 
+is includded in the official version of CCleaner Version 5.33 and distributed on their website.
+
+Another example of example of a Supply Chain Compromised sfotware is Smoke Loader which is a peice of malware
+that is distributed through a legit version of a Tor Client that had a coin miner payload attached to it.
+
 
 # Detection
 
-cannot be done
+Cannot be truly detected with a rule unless you know that the Supply Chain is comprimised from the top, or from the 
+company that creates the software, such as the examples above.
 
