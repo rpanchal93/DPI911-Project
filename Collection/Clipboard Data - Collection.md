@@ -16,7 +16,12 @@ Platform: Linux, Windows, MacOS
 Data Sources: API Monitoring
 
 # Execution
-
+Using the windows API under Data Exchange/Winuser.h we can use the following command to copy the contents of the clipboard using C++:
+~~~~
+HANDLE GetClipboardData(
+  UINT uFormat
+);
+~~~~
 
 
 
