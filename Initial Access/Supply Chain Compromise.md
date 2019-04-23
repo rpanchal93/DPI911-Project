@@ -37,3 +37,11 @@ that is distributed through a legit version of a Tor Client that had a coin mine
 Cannot be truly detected with a rule unless you know that the Supply Chain is comprimised from the top, or from the 
 company that creates the software, such as the examples above.
 
+As an example of detection CCleaner has released a page illustrating the modifed code and shows us using a decompiler the difference between the clean code and the modifed version with the payload which can be seen below.
+
+Clean Runtime Code on the left, and Modifed version of runtime code with Malicious Payload as Backdoor on the right 
+![CCLeaner Code](https://s1.pir.fm/pf/blog/articles/Blog_image_code_2_1.png)
+
+
+
+
